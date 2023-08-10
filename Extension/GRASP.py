@@ -40,7 +40,7 @@ def addMandatory(actividades, estudiantes):
 
 def addAct(solution,activitie, estudiantes):
    for e in range(len(estudiantes)):
-      for a in actividades:
+      for a in activitie:
          if(a.o == '1'):
             st = ct
             ct = st + a.d
